@@ -1177,6 +1177,7 @@
                 if (self.loadedCount === self.totalNum) {
                     self.finalRender(options)
                 }
+				img.width = self.docWidth
             })
         },
         finalRender: function (options) {
